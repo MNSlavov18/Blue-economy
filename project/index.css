@@ -22,6 +22,7 @@ body {
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+    transition: 0.5s;
   }
   
   .topnav a.active {
@@ -32,7 +33,6 @@ body {
   {
 background-image:url("p1.jpg") ;
 padding: 150px 16px;
-border-radius: 8px;
   }
   .div_start h1{
     overflow: hidden;
@@ -45,7 +45,6 @@ border-radius: 8px;
     padding: 180px 5px;
     max-width:100%;height:auto;
     background-color: white;
-    border-radius: 8px;
   }
 .div_water_polution h3
 {
@@ -76,7 +75,7 @@ border-radius: 8px;
     transition: 0.5s;
     opacity:0;
     visibility: hidden;
-    border-radius: 12px;
+    border-radius: 8px;
   }
   .div_water_polution:hover a
 {
@@ -101,8 +100,7 @@ top: 450px;
   .div_water_s
   {
     padding: 180px 5px;
-    background-image:url("p1.jpg") ;
-    border-radius: 8px;
+    background-image:url("p1.jpg");
   }
 .div_water_s h3
 {
@@ -111,7 +109,7 @@ top: 450px;
   top: 850px;
     transition: 0.5s;  
     font-size:27px; 
-    color:white;
+    color:black;
    
   }
   .div_water_s p
@@ -121,7 +119,7 @@ top: 450px;
     top: 950px;
     font-size:18px;
     text-align: left;  
-    color:white    ;
+    color:black  ;
   }
   .div_water_s a
   {
@@ -130,7 +128,7 @@ top: 450px;
     top: 1100px;
     padding: 10px 20px;
     text-decoration: none;
-    color: white;
+    color: black;
     transition: 0.5s;
     border-radius: 12px;
     opacity:0;
