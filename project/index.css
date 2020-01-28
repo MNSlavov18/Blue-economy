@@ -45,6 +45,7 @@ padding: 150px 16px;
     padding: 180px 5px;
     max-width:100%;height:auto;
     background-color: white;
+    border-radius: 5px;
   }
 .div_water_polution h3
 {
@@ -101,6 +102,7 @@ top: 450px;
   {
     padding: 180px 5px;
     background-image:url("p1.jpg");
+    border-radius: 5px;
   }
 .div_water_s h3
 {
@@ -150,6 +152,7 @@ top: 450px;
 {
   padding: 180px 5px;
   background-color:white;
+  border-radius: 5px;
 }
 .div_wind_pollution h3
 {
@@ -183,7 +186,7 @@ top: 1200px;
   opacity:0;
   visibility: hidden;
 }
-.div_wind_pollution a
+.div_wind_pollution:hover a
 {
   
   transform: translateY(0);
@@ -192,6 +195,58 @@ top: 1200px;
 }
 .div_wind_pollution a:hover
 {
+  color:white;
+  background: #7BE3DA;
+} 
+.div_wind_s
+{
+  padding: 180px 5px;
+  background-image:url("p1.jpg");
+  border-radius: 5px;
+  }
+
+.div_wind_s h3
+{
+position: absolute;
+left:40px;
+top: 1550px;
+  transition: 0.5s;  
+  font-size:27px; 
+  color:black;
+ 
+}
+.div_wind_s p
+{
+  position: absolute;
+  left:40px;
+  top: 1650px;
+  font-size:18px;
+  text-align: left;  
+  color:black  ;
+}
+.div_wind_s a
+{
+  position: absolute;
+  left:700px;
+  top: 1800px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  border-radius: 12px;
+  opacity:0;
+  visibility: hidden;
+}
+.div_wind_s:hover a
+{
+  
+  transform: translateY(0);
+  opacity:1;
+  visibility: visible;
+}
+.div_wind_s a:hover
+{
   color:black;
   background: #7BE3DA;
 }
+
