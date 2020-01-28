@@ -146,3 +146,52 @@ top: 450px;
     color:black;
     background: #7BE3DA;
 }
+.div_wind_pollution
+{
+  padding: 180px 5px;
+  background-color:white;
+}
+.div_wind_pollution h3
+{
+position: absolute;
+left:40px;
+top: 1200px;
+  transition: 0.5s;  
+  font-size:27px; 
+  color:black;
+ 
+}
+.div_wind_pollution p
+{
+  position: absolute;
+  left:40px;
+  top: 1300px;
+  font-size:18px;
+  text-align: left;  
+  color:black  ;
+}
+.div_wind_pollution a
+{
+  position: absolute;
+  left:700px;
+  top: 1400px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  border-radius: 12px;
+  opacity:0;
+  visibility: hidden;
+}
+.div_wind_pollution a
+{
+  
+  transform: translateY(0);
+  opacity:1;
+  visibility: visible;
+}
+.div_wind_pollution a:hover
+{
+  color:black;
+  background: #7BE3DA;
+}
