@@ -26,3 +26,34 @@ body {
     background-color: blue;
     color: white;
   }
+  .div_c
+  {
+    padding: 150px 16px;
+    background-color: white;
+    display: absolute;
+    
+  }
+  .div_c h1
+  {
+    overflow: hidden;
+    font-size:35px; 
+    color:#7BE3DA;
+    float:left; 
+  }
+  .div_c p
+  { position: absolute;
+    left:40px;
+    top: 550px;
+    font-size:18px;
+    text-align: left ;
+
+  }
+  .div_img
+  {
+float:right;
+width:100%;
+  }
+ .h1
+ {
+   background-color: ;
+ }
