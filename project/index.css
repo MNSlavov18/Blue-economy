@@ -4,7 +4,7 @@ html{
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #7BE3DA;
+  background-color: gray;
 }
 
 .topnav {
@@ -34,38 +34,31 @@ body {
 {
 background-image:url("main.jpg") ;
 padding: 150px 16px;
+border-radius: 20px;
 }
-.div_water_polution
+.div_c
 {
-  padding: 180px 5px;
-  max-width:100%;height:auto;
+  padding: 100px 16px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 20px;
+  
 }
-.div_water_polution h3
+.div_c h1
 {
-position: absolute;
-left:40px;
-top: 470px;
-  transition: 0.5s;  
-  font-size:27px; 
   color:#7BE3DA;
- 
 }
-.div_water_polution p
+.div_c img
 {
-  position: absolute;
-  left:40px;
-  top: 550px;
-  font-size:18px;
-  text-align: left ;
+float:right;
+width:475px;
+height:auto;
+border-radius: 10px;
 }
-.div_water_polution a
+.div_c a
 {
-  position: absolute;
-  left:700px;
-  top: 670px;
-  padding: 10px 20px;
+  margin-top:20px;
+
+  padding: 10px 30px;
   text-decoration: none;
   color: black;
   transition: 0.5s;
@@ -73,175 +66,146 @@ top: 470px;
   visibility: hidden;
   border-radius: 8px;
 }
-.div_water_polution:hover a
+.div_c:hover a
 {
   
   transform: translateY(0);
   opacity:1;
   visibility: visible;
 }
-.div_water_polution a:hover
+.div_c a:hover
 {
   color:white;
   background: #7BE3DA;
 }
-.div_pch
+.div_c2
 {
-
-position: absolute;
-left:880px;
-top: 450px;
-
-}
-.div_water_s
-{
-  padding: 180px 5px;
+  padding: 100px 16px;
   background-image:url("p1.jpg");
-  border-radius: 5px;
+  border-radius: 20px;
+  
 }
-.div_water_s h3
+.div_c2 h1
 {
-position: absolute;
-left:40px;
-top: 850px;
-  transition: 0.5s;  
-  font-size:27px; 
-  color:black;
- 
+  color:#7BE3DA;
 }
-.div_water_s p
+.div_c2 img
 {
-  position: absolute;
-  left:40px;
-  top: 950px;
-  font-size:18px;
-  text-align: left;  
-  color:black  ;
+float:left;
+width:375px;
+height:auto;
+border-radius: 10px;
+margin-top: -50px;
+margin-right:30px;
 }
-.div_water_s a
+.div_c2 a
 {
-  position: absolute;
-  left:700px;
-  top: 1100px;
-  padding: 10px 20px;
+  margin-top:20px;
+
+  padding: 10px 30px;
   text-decoration: none;
   color: black;
   transition: 0.5s;
-  border-radius: 12px;
   opacity:0;
   visibility: hidden;
+  border-radius: 8px;
 }
-.div_water_s:hover a
+.div_c2:hover a
 {
   
   transform: translateY(0);
   opacity:1;
   visibility: visible;
 }
-.div_water_s a:hover
+.div_c2 a:hover
 {
-  color:black;
+  color:white;
   background: #7BE3DA;
 }
-.div_wind_pollution
+.div_c3
 {
-padding: 180px 5px;
-background-color:white;
-border-radius: 5px;
+  padding: 100px 16px;
+  background-color: white;
+  border-radius: 20px;
+  
 }
-.div_wind_pollution h3
+.div_c3 h1
 {
-position: absolute;
-left:40px;
-top: 1200px;
-transition: 0.5s;  
-font-size:27px; 
-color:black;
+  color:#7BE3DA;
+}
+.div_c3 img
+{
+float:right;
+width:475px;
+height:auto;
+border-radius: 10px;
+}
+.div_c3 a
+{
+  margin-top:20px;
 
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  opacity:0;
+  visibility: hidden;
+  border-radius: 8px;
 }
-.div_wind_pollution p
+.div_c3:hover a
 {
-position: absolute;
-left:40px;
-top: 1300px;
-font-size:18px;
-text-align: left;  
-color:black  ;
+  
+  transform: translateY(0);
+  opacity:1;
+  visibility: visible;
 }
-.div_wind_pollution a
+.div_c3 a:hover
 {
-position: absolute;
-left:700px;
-top: 1400px;
-padding: 10px 20px;
-text-decoration: none;
-color: black;
-transition: 0.5s;
-border-radius: 12px;
-opacity:0;
-visibility: hidden;
+  color:white;
+  background: #7BE3DA;
 }
-.div_wind_pollution:hover a
+.div_c4
 {
+  padding: 100px 16px;
+  background-image:url("p1.jpg");
+  border-radius: 20px;
+  
+}
+.div_c4 h1
+{
+  color:#7BE3DA;
+}
+.div_c4 img
+{
+float:left;
+width:375px;
+height:auto;
+border-radius: 10px;
+margin-top: -50px;
+margin-right:30px;
+}
+.div_c4 a
+{
+  margin-top:20px;
 
-transform: translateY(0);
-opacity:1;
-visibility: visible;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  opacity:0;
+  visibility: hidden;
+  border-radius: 8px;
 }
-.div_wind_pollution a:hover
+.div_c4:hover a
 {
-color:white;
-background: #7BE3DA;
-} 
-.div_wind_s
-{
-padding: 180px 5px;
-background-image:url("p1.jpg");
-border-radius: 5px;
+  
+  transform: translateY(0);
+  opacity:1;
+  visibility: visible;
 }
-
-.div_wind_s h3
+.div_c4 a:hover
 {
-position: absolute;
-left:40px;
-top: 1550px;
-transition: 0.5s;  
-font-size:27px; 
-color:black;
-
-}
-.div_wind_s p
-{
-position: absolute;
-left:40px;
-top: 1650px;
-font-size:18px;
-text-align: left;  
-color:black  ;
-}
-.div_wind_s a
-{
-position: absolute;
-left:700px;
-top: 1800px;
-padding: 10px 20px;
-text-decoration: none;
-color: black;
-transition: 0.5s;
-border-radius: 12px;
-opacity:0;
-visibility: hidden;
-}
-.div_wind_s:hover a
-{
-
-transform: translateY(0);
-opacity:1;
-visibility: visible;
-}
-.div_wind_s a:hover
-{
-color:black;
-background: #7BE3DA;
+  color:white;
+  background: #7BE3DA;
 }
 
