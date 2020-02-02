@@ -4,8 +4,10 @@ html{
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: gray;
+  background-image: url("img2.jpg");
+ 
 }
+
 
 .topnav {
   width: 100%;
@@ -35,12 +37,18 @@ body {
 background-image:url("main.jpg") ;
 padding: 150px 16px;
 border-radius: 20px;
+width:95%;
+margin:auto;
+margin-bottom:15px;
 }
 .div_c
 {
   padding: 100px 16px;
   background-color: white;
   border-radius: 20px;
+  width:95%;
+  margin:auto;
+  margin-bottom:15px;
   
 }
 .div_c h1
@@ -76,13 +84,16 @@ border-radius: 10px;
 .div_c a:hover
 {
   color:white;
-  background: #7BE3DA;
+  background: gray;
 }
 .div_c2
 {
   padding: 100px 16px;
   background-image:url("p1.jpg");
   border-radius: 20px;
+   width:95%;
+  margin:auto;
+  margin-bottom:15px;
   
 }
 .div_c2 h1
@@ -120,13 +131,16 @@ margin-right:30px;
 .div_c2 a:hover
 {
   color:white;
-  background: #7BE3DA;
+  background: gray;
 }
 .div_c3
 {
   padding: 100px 16px;
   background-color: white;
   border-radius: 20px;
+  width:95%;
+  margin:auto;
+  margin-bottom:15px;
   
 }
 .div_c3 h1
@@ -162,13 +176,16 @@ border-radius: 10px;
 .div_c3 a:hover
 {
   color:white;
-  background: #7BE3DA;
+  background: gray;
 }
 .div_c4
 {
   padding: 100px 16px;
   background-image:url("p1.jpg");
   border-radius: 20px;
+  width:95%;
+  margin:auto;
+  margin-bottom:15px;
   
 }
 .div_c4 h1
@@ -206,6 +223,6 @@ margin-right:30px;
 .div_c4 a:hover
 {
   color:white;
-  background: #7BE3DA;
+  background: gray;
 }
 
