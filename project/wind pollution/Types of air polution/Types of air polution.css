@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  .topnav {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    border-radius: 5px;
+  }
+  
+  .topnav a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a.active {
+    background-color: gray;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: gray;
+    color: white;
+  }
+  .div_c
+  {
+    padding: 85px 16px;
+    background-color: white;
+    border-radius: 20px;
+    
+  }
+  .div_c h1
+  {
+    color:gray;
+  }
+  .div_c img
+  {
+  float:right;
+  width:400px;
+  height:auto;
+  margin-top: -50px;
+  
+  border-radius: 10px;
+  }
+  .div_c2 
+  {
+    padding: 80px 16px;
+    border-radius: 20px;
+    background-color: gray;
+  }
+  
+  .div_c2 img
+  {
+  float:left;
+  width:400px;
+  height:auto;
+  margin-top:-55px;
+  margin-right:20px;
+  border-radius: 20px;
+  
+  }
+  .div_c3
+  {
+    padding: 100px 16px;
+    background-color: white;
+    border-radius: 20px;
+    
+  }
+  .div_c3 h1
+  {
+    color:gray;
+  }
+  .div_c3 img
+  {
+  float:right;
+  width:400px;
+  height:auto;
+  margin-top:-55px;
+  border-radius: 10px;
+  }
+  
+  .div_c4 
+  {
+    padding: 80px 16px;
+    border-radius: 20px;
+    background-color: gray;
+  }
+  
+  .div_c4 img
+  {
+  float:left;
+  width:400px;
+  height:auto;
+  margin-top:-35px;
+  margin-right:20px;
+  border-radius: 20px;
+  
+  }
